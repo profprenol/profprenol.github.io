@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matematica interattiva</title>
+<style>
+:root{--bg:#fdfdfc;--ink:#1d2430;--mut:#6a7585;--line:#e2e6ea;--acc:#0f6f72}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--ink:#e9edf2;--mut:#99a4b3;--line:#2a323d;--acc:#5ccfd2}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:620px;margin:0 auto;padding:72px 24px 48px}
+h1{font:700 2.3rem/1.15 Georgia,"Times New Roman",serif;margin:0 0 20px;letter-spacing:-.01em}
+.intro{color:var(--mut);margin:0 0 48px}
+h2{font:600 .8rem/1 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);margin:0 0 8px}
+nav ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+nav li{border-bottom:1px solid var(--line)}
+nav a{display:block;padding:16px 4px;color:var(--ink);text-decoration:none}
+nav a:hover,nav a:focus-visible{color:var(--acc);outline:none}
+nav a strong{display:block;font-weight:600}
+nav a span{display:block;color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Matematica interattiva</h1>
+<p class="intro">Un piccolo spazio di attività per esplorare i concetti della matematica: si prova, si osserva, si formulano ipotesi e le si mette alla prova. Ogni pagina funziona da computer o da telefono, in classe e a casa.</p>
+
+<nav aria-label="Attività">
+<h2>Attività</h2>
+<ul>
+<!--
+  PER AGGIUNGERE UNA PAGINA: copia le tre righe qui sotto (da <li> a </li>),
+  incollale subito prima di </ul> e cambia l’indirizzo, il titolo e la descrizione.
+  L’indirizzo è il nome del repository con una barra finale (es. "funzioni/")
+  oppure il nome di un file nella stessa cartella (es. "limiti.html").
+-->
+<li><a href="funzioni/"><strong>La macchina delle funzioni</strong><span>Scopri la regola nascosta di una funzione.</span></a></li>
+</ul>
+</nav>
+</main>
+</body>
+</html>
